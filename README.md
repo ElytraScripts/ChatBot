@@ -6,7 +6,7 @@ https://v3rmillion.net/member.php?action=profile&uid=114844
 ```lua
 getgenv().Chatbot_Settings = {
 	message = "example", -- message being sent
-	messagecd = 0.2,
+	messagecd = 0.2, -- message delay
 	amount = 3, -- amount of messages until server hop
 	teleportspam = true -- teleports to every player and sends message
 }  
